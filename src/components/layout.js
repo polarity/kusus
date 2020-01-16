@@ -101,8 +101,7 @@ const TemplateWrapper = ({ children }) => {
                         e.preventDefault()
                         setShowMenu(!showMenu)
                       }}
-                    >&nbsp;
-                    </a>
+                    />
                   </div>
                   <div className='mobile-header__logo'>
                     <Link to='/'>{data.datoCmsSite.globalSeo.siteName}</Link>
